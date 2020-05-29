@@ -11,15 +11,19 @@ python,Flask,google cloud platformでline　botを作成します
 requirements.txtで必要なモジュールを使えるようにしている
 
 # Usage
+
+- ファイルに必要事項を追加する
+ - your backet name:GCSのbacket名を記入
+ - YOUR_CHANNEL_ACCESS_TOKEN：LINEのアクセストークンを記入
+ - YOUR_CHANNEL_SECRET：LINEのチャンネルシークレットを記入
  
-DEMOの実行方法など、"hoge"の基本的な使い方を説明する
- 
+google cloud consoleにファイルをアップロードして以下のコマンドを入力して実行する
+
+- 初期化コマンド
 ```bash
-git clone https://github.com/hoge/~
-cd examples
-python demo.py
+gcloud init
 ```
- 
-# Note
- 
-注意点などがあれば書く
+- 実行コマンド
+```bash
+gcloud app deploy
+```
