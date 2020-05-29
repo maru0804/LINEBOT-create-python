@@ -1,0 +1,6 @@
+runtime: python37
+# ファイル名をmain.pyにしないとエラーが発生する書き方
+entrypoint: gunicorn -b :$PORT main:app
+
+env_variables:
+    CLOUD_STORAGE_BUCKET: your GCS backet name
