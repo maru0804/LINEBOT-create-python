@@ -5,8 +5,9 @@ python,Flask,google cloud platformでline　botを作成します
 簡単な会話、画像の保存、ニュースのスクレイピングができる
  
 # DEMO
+<img src="https://user-images.githubusercontent.com/53184634/83309478-58d43700-a244-11ea-8e56-fbf577af9ec5.png" width='400'>
 <img src="https://user-images.githubusercontent.com/53184634/83309508-6e496100-a244-11ea-9cf2-458521b6d8c4.png" width='400'>
-![demo](https://user-images.githubusercontent.com/53184634/83309508-6e496100-a244-11ea-9cf2-458521b6d8c4.png)
+
 # Requirement
  
 requirements.txtで必要なモジュールを使えるようにしている
