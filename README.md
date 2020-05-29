@@ -1,6 +1,6 @@
 # LINE BOT
 
-python,Flask,google cloud platformでline　botを作成します
+python,Flask,google cloud platformでline botを作成する
 
 簡単な会話、画像の保存、ニュースのスクレイピングができる
  
